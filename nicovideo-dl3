@@ -20,7 +20,8 @@ const_1k = 1024
 const_initial_block_size = 10 * const_1k
 const_epsilon = 0.0001
 const_timeout = 120
-
+const_version = '1.0r1'
+const_project_url = 'https://github.com/SatoOsamu/nicovideo-dl3'
 const_video_url_str = 'http://www.nicovideo.jp/watch/%s'
 const_video_url_re = re.compile(r'^((?:http://)?(?:\w+\.)?(?:nicovideo\.jp/(?:v/|(?:watch(?:\.php)?))?/)?(\w+))')
 const_login_url_str = 'https://secure.nicovideo.jp/secure/login?site=niconico'
